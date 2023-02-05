@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <title>Pagination</title>
+  </head>
+  <body
+    class="d-flex justify-content-center align-items-center flex-column p-3"
+  >
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item">
+          <button disabled class="page-link previous" aria-label="Previous">
+            Previous
+          </button>
+        </li>
+        <li class="page-item active">
+          <a class="page-link" data-id="1" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" data-id="2" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" data-id="3" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" data-id="3" href="#">4</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" data-id="3" href="#">5</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" data-id="3" href="#">6</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" data-id="3" href="#">7</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" data-id="3" href="#">8</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" data-id="3" href="#">9</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" data-id="3" href="#">10</a>
+        </li>
+        <li class="page-item">
+          <button class="page-link next" aria-label="Next">
+           Next
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <section id="main-section w-100">
+      <ul
+        class="d-flex min-vh-100 align-items-center flex-column w-100"
+        id="comments"
+      ></ul>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js
+"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
